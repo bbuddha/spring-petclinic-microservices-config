@@ -10,6 +10,10 @@ spring:
   config:
     activate:
       on-profile: docker
+  cloud:
+    consul:
+      host: discovery-server-client
+      port: 8500
   zipkin:
     baseUrl: http://tracing-server:9411
 server:

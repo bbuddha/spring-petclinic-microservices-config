@@ -14,6 +14,10 @@ spring:
   config:
     activate:
       on-profile: docker
+  cloud:
+    consul:
+      host: discovery-server-client
+      port: 8500
 eureka:
   client:
     serviceUrl:
