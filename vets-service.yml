@@ -24,7 +24,7 @@ spring:
       port: 8500
     config:
       discovery:
-        serviceId: customer
+        serviceId: vet
   zipkin:
     baseUrl: http://tracing-server:9411
 server:
