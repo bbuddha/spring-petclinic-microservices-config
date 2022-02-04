@@ -12,7 +12,7 @@ spring:
       on-profile: docker
   cloud:
     consul:
-      host: discovery-server1
+      host: consul-server-client
       port: 8500
     config:
       discovery:
