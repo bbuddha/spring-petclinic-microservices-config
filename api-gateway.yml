@@ -24,11 +24,11 @@ spring:
       on-profile: docker
   cloud:
     consul:
-      host: discovery-server1
+      host: consul-server1
       port: 8500
   zipkin:
     baseUrl: http://tracing-server:9411
-eureka:
-  client:
-    serviceUrl:
-      defaultZone: http://discovery-server:8761/eureka/
+#eureka:
+#  client:
+#    serviceUrl:
+#      defaultZone: http://discovery-server:8761/eureka/
