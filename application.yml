@@ -71,8 +71,9 @@ chaos:
       rest-controller: false
       service: false
 management:
-  port: 81
-  address: 0.0.0.0
+  server:
+    port: 81
+    address: 0.0.0.0
 
 ---
 spring:
