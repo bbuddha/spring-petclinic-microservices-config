@@ -40,6 +40,8 @@ logging.level.org.springframework: INFO
 
 # Metrics
 management:
+  server:
+    port: 81
   endpoint:
     metrics:
       enabled: true
